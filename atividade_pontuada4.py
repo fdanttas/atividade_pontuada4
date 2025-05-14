@@ -3,6 +3,7 @@ import time
 import os
 from dataclasses import dataclass
 
+#Classe para representar um funcionario
 @dataclass
 class Funcionario:
     nome = str
